@@ -3,3 +3,8 @@ conda install pandas
 VIMOS: 
 series
 data frames
+
+
+
+data frames https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html
+a bunch of series that share an index
