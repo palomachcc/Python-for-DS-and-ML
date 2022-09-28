@@ -45,3 +45,6 @@ si activas un entorno virtual debe tener instaladas las librerias que voy a quer
   
  ----------------------------------------------------------------------------------
 
+INSTALAR LIBRERIA
+en la terminal, de una escribo:
+ conda install numpy
