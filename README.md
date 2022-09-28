@@ -29,6 +29,7 @@ aveces puede que necesite una version u otra de una misma libreria https://conda
 
 BIBLIOTECA VIRTUAL ENV permite crear entornos virtuales https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
+
 Al parecer podes crear tus propios entornos virtuales para asegurarte de que cuando avisas, usa las versiones de programas y librerias que estas necesitando en ese momento para ejecutar el codigo. (lo que no se es si eso se guarda en la compu siempre o lo tenes que armar cada ves que lo vas a usar)
 
 https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/learn/lecture/5833530#content
@@ -48,3 +49,11 @@ si activas un entorno virtual debe tener instaladas las librerias que voy a quer
 INSTALAR LIBRERIA
 en la terminal, de una escribo:
  conda install numpy
+ 
+ 
+ 
+ 
+ ATAJOS
+ 
+ shift+tab te da info sobre la funcion
+ tab te autocompleta
