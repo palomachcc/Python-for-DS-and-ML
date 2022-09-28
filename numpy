@@ -1,4 +1,9 @@
+https://numpy.org/doc/stable/reference/?v=20220920092113 
+
 ARRAYS
+NumPy's arrays are more compact than Python lists -- a list of lists as you describe, in Python, would take at least 20 MB or so, while a NumPy 3D array with
+single-precision floats in the cells would fit in 4 MB. Access in reading and writing items is also faster with NumPy.
+https://stackoverflow.com/questions/993984/what-are-the-advantages-of-numpy-over-regular-python-lists 
 
 podemos convertir listas en arrays
 
@@ -31,4 +36,4 @@ otra funcion es arange() similar a range para generar numeros en un array
   np.ones((4,3)) #te crea un array de unos de 3 filas y 4 columnas
 
 
-
+FUNCIONES ARMADAS: https://numpy.org/doc/stable/reference/ufuncs.html
