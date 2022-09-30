@@ -3,8 +3,76 @@ conda install pandas
 VIMOS: 
 series
 data frames
+Missing Data
+GroupBy
+Merging,Joining,and Concatenating
+Operations
+Data Input and Output
 
+-------------------------------------------------------------------------------------------
+
+The first main data type we will learn about for pandas is the Series data type. Tienen "axis labels". It also doesn't need to hold numeric data, it can hold any 
+arbitrary Python Object.
+
+  import pandas as pd
+  pd.Series(data=los datos que quiera**, index=None, dtype=None, name=None, copy=False, fastpath=False)[source]
+
+**pueden venir de un diccionario, lista, array,etc. Lo mismo para index
+
+Por ejemplo:
+
+  labels = ['a','b','c'] 
+  my_list = [10,20,30] #lista
+  arr = np.array([10,20,30]) #array
+  d = {'a':10,'b':20,'c':30} #diccionario # aca si pones pd.Series(d) te toma directamente las palabras como indexy los numeros como datos
+
+Por default, si no le agregar nada en index, te numera desde 0 en adelante
 
 
 data frames https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html
 a bunch of series that share an index
+
+#axis=0 refers to de INDEX, axis=1 refers to the COLUMS
+
+-------------------------------------------------------------
+
+CONSULTAS.
+
+los resultados de las consultas no modifican los data frames que estoy consultando. Pero puedo asignarles un nombre 
+a cada resultado de la consulta y luego aplicar calculos o cosas sobre eso 
+
+EJEMPLO: 
+-----------
+import pandas as pd
+import numpy as np
+
+#creas el dataframe que no me acuerdo bien como era..
+
+df #el data frame se llama df
+
+W	X	Y	Z
+A	1.606780	-1.115710	-1.385379	-1.329660
+B	0.041460	-0.411055	-0.771329	0.110477
+C	-0.804652	0.253548	0.649148	0.358941
+D	-1.080471	0.902398	0.161781	0.833029
+E	0.975720	-0.388239	0.783316	-0.708954
+
+df[df["Z"]<0] # hago una consulta segun cierta condicion
+
+#resultado
+W	X	Y	Z
+A	1.60678	-1.115710	-1.385379	-1.329660
+E	0.97572	-0.388239	0.783316	-0.708954
+
+#ntonces a esa consutla podria llamarla df_condicion1=df[df["Z"]<0]
+
+#luego puedo querer una columna de ese resultado entonces:
+
+df_condicion1["X"]
+
+#resltado:
+
+A   -1.115710
+E   -0.388239
+Name: X, dtype: float64
+
