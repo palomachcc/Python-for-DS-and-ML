@@ -37,3 +37,19 @@ otra funcion es arange() similar a range para generar numeros en un array
 
 
 FUNCIONES ARMADAS: https://numpy.org/doc/stable/reference/ufuncs.html
+
+----------------------------------------------------------------------------------
+RANDOM
+
+The numpy.random.rand() function creates an array of specified shape and fills it with random values. Syntax : 
+
+numpy.random.rand(d0, d1, ..., dn)
+Parameters : 
+
+d0, d1, ..., dn : [int, optional]Dimension of the returned array we require, 
+     If no argument is given a single Python float is returned.
+     
+The numpy.random.randn() function creates an array of specified shape and fills it with random values as per standard normal distribution. 
+If positive arguments are provided, randn generates an array of shape (d0, d1, …, dn), filled with random floats sampled from a univariate “normal” (Gaussian)
+distribution of mean 0 and variance 1 (if any of the d_i are floats, they are first converted to integers by truncation). A single float randomly sampled from the
+distribution is returned if no argument is provided.
