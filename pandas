@@ -6,8 +6,8 @@ data frames
 Missing Data
 GroupBy
 Merging,Joining,and Concatenating
-Operations
-Data Input and Output
+Operations (sacar, filtrar datos segun lo que quiero de cada dataframe)
+Data Input and Output (como sacar los datos de diferentes formatos, para eso instalas otras librerias especificas)
 
 -------------------------------------------------------------------------------------------
 
@@ -34,45 +34,5 @@ a bunch of series that share an index
 
 #axis=0 refers to de INDEX, axis=1 refers to the COLUMS
 
--------------------------------------------------------------
 
-CONSULTAS.
-
-los resultados de las consultas no modifican los data frames que estoy consultando. Pero puedo asignarles un nombre 
-a cada resultado de la consulta y luego aplicar calculos o cosas sobre eso 
-
-EJEMPLO: 
------------
-import pandas as pd
-import numpy as np
-
-#creas el dataframe que no me acuerdo bien como era..
-
-df #el data frame se llama df
-
-W	X	Y	Z
-A	1.606780	-1.115710	-1.385379	-1.329660
-B	0.041460	-0.411055	-0.771329	0.110477
-C	-0.804652	0.253548	0.649148	0.358941
-D	-1.080471	0.902398	0.161781	0.833029
-E	0.975720	-0.388239	0.783316	-0.708954
-
-df[df["Z"]<0] # hago una consulta segun cierta condicion
-
-#resultado
-W	X	Y	Z
-A	1.60678	-1.115710	-1.385379	-1.329660
-E	0.97572	-0.388239	0.783316	-0.708954
-
-#ntonces a esa consutla podria llamarla df_condicion1=df[df["Z"]<0]
-
-#luego puedo querer una columna de ese resultado entonces:
-
-df_condicion1["X"]
-
-#resltado:
-
-A   -1.115710
-E   -0.388239
-Name: X, dtype: float64
 
