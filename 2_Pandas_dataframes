@@ -1,0 +1,63 @@
+SERIES
+------------------
+A Series is very similar to a NumPy array (in fact it is built on top of the NumPy array object). What differentiates the NumPy array from a Series, is that a Series 
+can have axis labels, meaning it can be indexed by a label, instead of just a number location. It also doesn't need to hold numeric data, it can hold any arbitrary
+Python Object.
+
+    pd.Series ( data=variables o datos, index=None)  #tiene mas opciones...
+    
+    labels = ['a','b','c'] 
+    my_list = [10,20,30] #lista
+    arr = np.array([10,20,30]) #array
+    d = {'a':10,'b':20,'c':30} #diccionario
+    
+    pd.Series(my_list,labels)
+    
+    #OUTPUT
+
+    a    10
+    b    20
+    c    30
+    dtype: int64
+    
+    #si no le especificas el index te lo numera desde cero
+    
+    pd.Series(arr)
+    
+    #OUTPUT
+    
+    0    10
+    1    20
+    2    30
+    dtype: int64
+    
+    serie1=pd.Series(d) # DICCIONARIO va directamente todo
+    
+    0    a
+    1    b
+    2    c
+    dtype: object
+    
+    #para buscar algo digo serie1[label]  si es una palabra va entre comillas, los labels pueden ser palabras
+
+
+DATAFRAMES
+-----------------------------------------------
+son como tablas,We can think of a DataFrame as a bunch of Series objects put together to share the same index.
+
+    df=pd.DataFrame(data=None, index=None, columns=None)  #como siempre tiene mas parametros...
+    
+
+BUSCAR DATOS DEL DATAFRAME
+Ver archivo C1
+
+
+
+
+
+
+
+
+
+
+
