@@ -1,9 +1,0 @@
-conda install sqlalchemy
-conda install lxml
-conda install html5lib
-conda install BeautifulSoup4
-conda instal xlrd (para excel)
-con conda o con pip es lo mismo
-
-CSV, Excel, HTML, SQL
-

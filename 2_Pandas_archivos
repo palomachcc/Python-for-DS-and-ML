@@ -1,0 +1,25 @@
+conda install sqlalchemy
+conda install lxml
+conda install html5lib
+conda install BeautifulSoup4
+conda instal xlrd (para excel)
+con conda o con pip es lo mismo
+
+CSV, Excel, HTML, SQL
+
+
+
+-------------------------------
+
+CSV INPUT 
+    df = pd.read_csv('example')
+CSV OUTPUT
+    df.to_csv('example',index=False) #Write object to a comma-separated values (csv) file.
+    
+    
+    
+EXCEL INPUT
+    #lo que hace es leer un archivo de ecel y deolvertelo como un datafram y tambien lo inverso/contrario
+    pd.read_excel('Excel_Sample.xlsx',sheetname='Sheet1')
+EXCEL OUTPUT
+    df.to_excel('Excel_Sample.xlsx',sheet_name='Sheet1')
