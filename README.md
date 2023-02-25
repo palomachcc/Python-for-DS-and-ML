@@ -28,6 +28,7 @@ Un entorno de programación es un programa o conjunto de programas que engloban 
 aveces puede que necesite una version u otra de una misma libreria https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands 
 
 BIBLIOTECA VIRTUAL ENV permite crear entornos virtuales https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+https://blog.hubspot.com/website/anaconda-python#:~:text=Anaconda%20software%20helps%20you%20create,packages%20in%20your%20project%20environments.
 
 
 Al parecer podes crear tus propios entornos virtuales para asegurarte de que cuando avisas, usa las versiones de programas y librerias que estas necesitando en ese momento para ejecutar el codigo. (lo que no se es si eso se guarda en la compu siempre o lo tenes que armar cada ves que lo vas a usar)
