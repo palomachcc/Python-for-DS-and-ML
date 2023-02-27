@@ -53,3 +53,7 @@ The numpy.random.randn() function creates an array of specified shape and fills 
 If positive arguments are provided, randn generates an array of shape (d0, d1, …, dn), filled with random floats sampled from a univariate “normal” (Gaussian)
 distribution of mean 0 and variance 1 (if any of the d_i are floats, they are first converted to integers by truncation). A single float randomly sampled from the
 distribution is returned if no argument is provided.
+
+---------------
+FUNCIONES 
+https://numpy.org/doc/stable/reference/ufuncs.html
