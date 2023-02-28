@@ -1,3 +1,6 @@
+Librerias que necesito tener instaladas, tabien debo ver la locacion de donde estoy parada a a la hora 
+de trabajar con los archivos que bajo o subo
+
 conda install sqlalchemy
 conda install lxml
 conda install html5lib
