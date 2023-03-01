@@ -58,3 +58,8 @@ en la terminal, de una escribo:
  
  shift+tab te da info sobre la funcion
  tab te autocompleta
+
+
+------------------------------------
+WEB SCRAPPING 
+https://www.youtube.com/watch?v=2XiLA_dEteQ 
