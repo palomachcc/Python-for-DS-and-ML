@@ -1,0 +1,26 @@
+Bueno comenta esto en el video 34. Pandas no es la mejor forma de leer una base de datos SQL, porque al parecer hay diferentes motores de bases de datos.SQL engine is
+defined as software that recognizes and interprets SQL commands to access a relational database and interrogate data. SQL engine is also commonly referred 
+to as a SQL database engine or a SQL query engine.(se refiere a los sistemas de gestion de base de datos tipo postgreesql, mysql, sqlite).
+dependiendo de cual usas se busca un driver especifico:
+
+"In addition you will need a driver library for your database. Examples of such drivers are psycopg2 for PostgreSQL or pymysql for MySQL. For SQLite this is included in 
+Python’s standard library by default. You can find an overview of supported drivers for each SQL dialect in the SQLAlchemy docs."
+
+The pandas.io.sql module provides a collection of query wrappers to both facilitate data retrieval and to reduce dependency on DB-specific API.
+
+DB-API is an acronym for DataBase Application Programming Interface and a library that lets Python connect to the database server. Depending on the relational DB library
+you use, they may have their own DB-API modules.
+
+Database abstraction is provided by SQLAlchemy if installed.
+https://www.sqlalchemy.org/
+
+
+
+
+SQL engine is defined as software that recognizes and interprets SQL commands to access a relational database and interrogate data. SQL engine is also commonly referred 
+to as a SQL database engine or a SQL query engine.
+
+ves dos boludeces de esto en le archivo 08-Data Input and Output.ipynb de pandas.
+
+---------
+fuera de este curso, buscar las liberrias especificas de python que hay para cada programa de SQL.
